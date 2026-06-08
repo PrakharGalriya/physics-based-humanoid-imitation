@@ -1,0 +1,15 @@
+# Core Reinforcement Learning & Physics Simulation
+stable-baselines3[extra]>=2.0.0
+gymnasium[mujoco]>=0.29.0
+
+# Computer Vision & Pose Extraction
+# Note: Pinned to 0.10.14 to maintain compatibility with the solutions API
+mediapipe==0.10.14
+opencv-python>=4.8.0
+
+# Data Processing & Math
+# Note: Pinned below 2.0 to ensure compatibility with Stable-Baselines3
+numpy<2.0
+
+# Video Downloading Utility
+yt-dlp>=2023.10.13

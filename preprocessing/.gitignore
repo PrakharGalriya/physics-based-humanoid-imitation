@@ -1,0 +1,23 @@
+# Virtual environments
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Models
+models/
+*.pt
+*.pth
+*.zip
+
+# Data
+data/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
